@@ -1,5 +1,10 @@
 # Conditional pipeline
 
+trigger:
+- master
+
+pr: none
+
 stages:
 - stage: build_test
   jobs:
