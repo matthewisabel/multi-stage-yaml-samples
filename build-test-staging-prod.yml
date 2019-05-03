@@ -1,5 +1,10 @@
 # Built-test-staging-prod pipeline
 
+trigger:
+- master
+
+pr: none
+
 stages:
 - stage: build
   jobs:
